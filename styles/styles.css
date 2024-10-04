@@ -1,5 +1,15 @@
+:root {
+    --heading-background-color: steelblue;
+    --heading-text-color: steelblue;
+
+
+
+}
+
+
+
 nav {
-    background-color: steelblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -10,7 +20,7 @@ nav a {
 }
 
 h1 { 
-    color: steelblue;
+    color: var(--heading-text-color);
 }
 
 main img {
