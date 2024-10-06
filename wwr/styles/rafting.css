@@ -1,0 +1,53 @@
+:root {
+    --heading-background-color: #ECFFB0;
+    --heading-text-color: #54577C;
+    --paragraph-text-color: #656d64; 
+    
+}
+
+h1 { 
+    color: var(--heading-text-color);
+    position: absolute;
+    margin: 20px;
+}
+
+h2 {
+    color: var(--heading-text-color);
+    text-align: center;
+}
+
+p {
+    color: var(--paragraph-text-color);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: auto;
+    max-width: 20em;
+}
+
+
+div {
+    position: relative;
+}
+
+/* class image*/
+.hero {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    position: absolute;
+    opacity: 5;
+    background-color: var(--heading-background-color);
+}
+
+article img {
+    float: right;
+}
