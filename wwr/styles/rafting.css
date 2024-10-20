@@ -25,19 +25,12 @@ header img {
     
 }
 
-h1 { 
-    color: #0f9ca9; 
-    position: absolute;
-    margin: 20px;
-    font-size: 4.5rem;
-	font-family: Acme, Arial, sans-serif;
-    bottom: 680px;
-    text-align: center;
-    width: 180%;
-    -webkit-text-stroke-color: white;
-    -webkit-text-stroke-width: 2px;
-    
-
+h1 {position: relative;
+    text-align: justify;
+    color: var(--heading-text-color);
+    font-size: 3rem;
+    padding: 0%;
+    margin: 10px;   
 }
   
 
@@ -218,3 +211,90 @@ footer img{
 }
 
 
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    text-align: center;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+
+input, textarea {
+    padding: 0.3rem;
+    font-size: 1.1rem;
+
+  
+}
+
+#abouth1 {
+    color: #0f9ca9; 
+    position: absolute;
+    margin: 20px;
+    font-size: 4.5rem;
+	font-family: Acme, Arial, sans-serif;
+    bottom: 680px;
+    text-align: center;
+    width: 180%;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 2px;
+    
+
+}
+
+.map {
+    position: relative;
+    margin: 3px;
+    text-align: center;
+}
+
+#contacth2 {
+    color: var(--paragraph-text-color);
+    padding: 0%;
+    margin: 5px;
+    font-size: 2rem;
+    position: relative;
+    text-align: justify;
+}
+
+.contactp {
+    font-size: larger;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    text-align: justify;
+}
+
+#aligne {
+    text-align: center;
+    left: 50px;
+}
